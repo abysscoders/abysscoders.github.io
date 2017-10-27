@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(MaterialIcons-Regular.eot);
+    /* For IE6-8 */
+    src: local('Material Icons'), local('MaterialIcons-Regular'), url(MaterialIcons-Regular.woff2) format('woff2'), url(MaterialIcons-Regular.woff) format('woff'), url(MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.mic {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.5rem;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    vertical-align: middle;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+.XL {
+    font-size: 10rem;
+}
+
+.arrowd:before {
+    content: "\e313";
+}
+
+.arrowl:before {
+    content: "\e314";
+}
+
+.arrorr:before {
+    content: "\e315";
+}
+
+.arrowu:before {
+    content: "\e316";
+}
+
+.navb:before {
+    content: "\e408";
+}
+
+.navf:before {
+    content: "\e409";
+}
+
+.menu:before {
+    content: "\e5d2";
+}
+
+.close:before {
+    content: "\e5cd";
+}
+
+.dwnl:before {
+    content: "\e2c4";
+}
+
+.projects:before {
+    content: "\e86f"
+}
+
+.home:before {
+    content: "\e88a"
+}
+
+.mouse:before {
+    content: "\e323"
+}
+
+.bubble:before {
+    content: "\e6dd"
+}
+
+.tv:before {
+    content: "\e333"
+}
+
+.laptop:before {
+    content: "\e31e"
+}
+
+.pc:before {
+    content: "\e321"
+}
+
+.mac:before {
+    content: "\e320"
+}
+
+.phone:before {
+    content: "\e324"
+}
+
+.iphone:before {
+    content: "\e325"
+}
+
+.tablet:before {
+    content: "\e32f"
+}
+
+.watch:before {
+    content: "\e334"
+}
+
+.money:before {
+    content: "\e227"
+}

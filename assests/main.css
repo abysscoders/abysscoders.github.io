@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Rajdhani|Iceberg');
+html {
+    font-size: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #fafafa;
+    font-family: Helvetica, sans-serif;
+    line-height: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+#logo {
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+}
+
+.logoadjust {
+    margin: auto;
+    padding: 10% 0;
+    height: 25rem;
+    width: 20rem;
+}
+
+#main {
+    background: url(images/frozen-ice.jpg) no-repeat center;
+    overflow-x: hidden;
+    position: relative;
+    font-family: 'Rajdhani';
+}
+
+
+/* Multipurpose Global Styles */
+
+.csr {
+    cursor: pointer;
+}
+
+.tc {
+    text-align: center;
+}
+
+.vm {
+    vertical-align: middle;
+}
+
+.shrink {
+    font-size: 0.7rem;
+}
+
+.shrinkh {
+    font-size: 0.5rem;
+}
+
+.shrinkl {
+    font-size: 0.8rem;
+}
+
+.enlarge {
+    font-size: 1.3em;
+}
+
+.btn {
+    margin: 3rem 23%;
+    text-align: center;
+    padding: 0.6rem 4rem;
+    background-color: #e53935;
+    color: #fafafa;
+    border: 0.1rem solid #f44336;
+    border-radius: 3rem;
+}
+
+.btn:hover {
+    color: #f44336;
+    font-weight: bold;
+    background-color: initial;
+}
+
+.wframe {
+    padding: 1rem 1.5rem;
+    width: 60%;
+    display: inline-block;
+    font-family: 'Poriet One', cursive;
+    vertical-align: middle;
+}
+
+.sframe {
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+/* Navigation Bar Styles */
+
+#navc {
+    position: fixed;
+    top: 0.5rem;
+    left: 0.5em;
+    color: #f44336;
+    z-index: 3;
+    transition: content 1s ease-in;
+}
+
+#nbar {
+    position: fixed;
+    left: -11rem;
+    top: 27%;
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: left 0.6s ease-in-out;
+}
+
+#nbar a {
+    color: #158fa5;
+    display: block;
+    margin: 1.5rem 10%;
+    width: 10rem;
+    padding: 1rem 0.5rem;
+    margin: 0;
+}
+
+#nbar a:hover {
+    background-color: #158fa5;
+    color: #fafafa;
+}
+
+
+/* Hire Section Code */
+
+#hire {
+    height: 43rem;
+}
+
+
+/* Intro Section */
+
+#intro {
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Iceberg', cursive;
+    background: url('images/pexels-code.jpeg') no-repeat;
+    background-size: 100% auto;
+    animation: sclaey 2s;
+    animation-delay: 2s;
+}
+
+.introbox {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin: 20% 0;
+}
+
+.introbox span {
+    font-size: 1.5rem;
+    color: #000000;
+    animation: appear 2s;
+}
+
+
+/* Prices Styles */
+
+#prices {
+    overflow: hidden;
+    margin: 0;
+    background: url(images/pexels-gradienttech.jpeg) no-repeat center;
+    background-size: 100% auto;
+    overflow-y: hidden;
+    color: #fafafa;
+    background-color: #191919;
+}
+
+.pwrapper {
+    margin: 10% 0;
+}
+
+.pwrapper div.sframe {
+    font-family: 'Iceberg', cursive;
+    font-size: 1.5rem;
+}
+
+#prices div span {
+    display: block;
+}
+
+
+/* About Section Styles*/
+
+#about {
+    color: #191919;
+    padding: 25px;
+    height: 5rem;
+    font-family: 'Iceberg', cursive;
+    background: -webkit-linear-gradient(48deg, rgb(231, 37, 37), rgb(53, 203, 236));
+    background: linear-gradient(48deg, rgb(231, 37, 37), rgb(53, 203, 236));
+}
+
+
+/* Responsive Queries */
+
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 15px;
+    }
+}
